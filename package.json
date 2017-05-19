@@ -1,0 +1,20 @@
+{
+  "name": "localize-app-name",
+  "version": "1.0.4",
+  "description": "Allows localization of iOS/Android App Name",
+  "cordova": {
+    "id": "localize-app-name",
+    "platforms": [
+      "ios",
+      "android"
+    ]
+  },
+  "keywords": [
+    "ecosystem:cordova",
+    "cordova-android",
+    "cordova-ios",
+    "localize",
+    "app name"
+  ],
+  "author": "Mooee Company Ltd."
+}
