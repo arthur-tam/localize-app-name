@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <plugin xmlns="http://apache.org/cordova/ns/plugins/1.0"
   id="localize-app-name"
-  version="1.0.8">
+  version="1.0.7">
 
   <name>localize-app-namee</name>
-  <description>Nong's Mobile App Name localization</description>
+  <description>Allows localization of iOS/Android App Name</description>
   <engines>
     <engine name="cordova" version=">=2.4.0" />
   </engines>

@@ -1,7 +1,7 @@
 {
   "name": "localize-app-name",
-  "version": "1.0.8",
-  "description": "Nong's Mobile App Name localization",
+  "version": "1.0.7",
+  "description": "Allows localization of iOS/Android App Name",
   "cordova": {
     "id": "localize-app-name",
     "platforms": [
