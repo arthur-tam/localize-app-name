@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <plugin xmlns="http://apache.org/cordova/ns/plugins/1.0"
   id="localize-app-name"
-  version="1.0.13">
+  version="1.0.14">
 
   <name>localize-app-name</name>
   <description>Allows localization of iOS/Android App Name</description>
@@ -12,12 +12,12 @@
 
   <!-- android -->
   <platform name="android">
-    <resource-file src="locales/android/values-en/strings.xml" target="res/values-en/strings.xml" />
+    <resource-file src="locales/android/values-zh-rCN/strings.xml" target="res/values-zh-rCN/strings.xml" />
   </platform>
 
   <!-- ios -->
   <platform name="ios">
-    <resource-file src="locales/ios/en.lproj" />
+    <resource-file src="locales/ios/zh-hans.lproj" />
     <resource-file src="locales/ios/zh-hant.lproj" />
   </platform>
 </plugin>
