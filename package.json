@@ -1,6 +1,6 @@
 {
   "name": "localize-app-name",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "description": "Allows localization of iOS/Android App Name",
   "cordova": {
     "id": "localize-app-name",
