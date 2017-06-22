@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <plugin xmlns="http://apache.org/cordova/ns/plugins/1.0"
   id="localize-app-name"
-  version="1.0.17">
+  version="1.0.18">
 
   <name>localize-app-name</name>
   <description>Allows localization of iOS/Android App Name</description>
