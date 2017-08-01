@@ -1,25 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <plugin xmlns="http://apache.org/cordova/ns/plugins/1.0"
   id="localize-app-name"
-  version="1.0.19">
+  version="1.0.20">
 
   <name>localize-app-name</name>
   <description>Allows localization of iOS/Android App Name</description>
   <engines>
     <engine name="cordova" version=">=2.4.0" />
   </engines>
-  <keywords>ecosystem:cordova,cordova-android,cordova-ios,localize,app name</keywords>
-
-  <!-- android -->
-  <platform name="android">
-    <resource-file src="locales/android/values-en/strings.xml" target="res/values-en/strings.xml" />
-    <resource-file src="locales/android/values-zh-rCN/strings.xml" target="res/values-zh-rCN/strings.xml" />
-  </platform>
+  <keywords>ecosystem:cordova,cordova-ios,localize,app name</keywords>
 
   <!-- ios -->
   <platform name="ios">
     <resource-file src="locales/ios/en.lproj" />
-    <resource-file src="locales/ios/zh-Hans.lproj" />
     <resource-file src="locales/ios/zh-Hant.lproj" />
   </platform>
 </plugin>

@@ -21,15 +21,18 @@
 
 This plugin provides a way to localize your app name
 
-Android:
-add the corresponding language folders to locales/android other than the appname default locale (the default appname will set in XDK project Build Settings)
-
 iOS:
 add the corresponding language folders to locales/ios (the default appname will set in XDK project Build Settings)
 
+For Android:
+no plugin require as it can be done through config.xml:
+```xml
+    <resource-file src="files/android/res/values/strings.xml" target="res/values/strings.xml" />
+    <resource-file src="files/android/res/values-en/strings.xml" target="res/values-en/strings.xml" />
+```
+
 ### Supported Platforms
 
-- Android
 - iOS
 
 ### Example
@@ -38,12 +41,6 @@ e.g. if appname default in zh-TW, with additional zh-CN and en locale, then
 
 Step 1: Enter plugin.xml with
 ```xml
-  <!-- android -->
-  <platform name="android">
-    <resource-file src="locales/android/values-en/strings.xml" target="res/values-en/strings.xml" />
-    <resource-file src="locales/android/values-zh-rCN/strings.xml" target="res/values-zh-rCN/strings.xml" />
-  </platform>
-
   <!-- ios -->
   <platform name="ios">
     <resource-file src="locales/ios/en.lproj" />
@@ -51,5 +48,5 @@ Step 1: Enter plugin.xml with
     <resource-file src="locales/ios/zh-hans.lproj" />
   </platform>
 ```
-Step 2: Edit strings.xml/InfoPlist.strings to your appname
+Step 2: Edit InfoPlist.strings to your appname
 
